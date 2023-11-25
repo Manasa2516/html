@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400;500;700;900&display=swap');
+body{margin:0; font-family: 'Noto Sans', sans-serif;}
+.text-pink{ color:yellow;}
+.top-header{display:flex; justify-content:space-between; padding:10px 15px;}
+.top-header p{margin:0;}
+.list-none{list-style:none; margin:0; padding:0;}
+ .list-none li{ display:inline;}
+ .menu{ background-color:#0a71f7; padding:10px 15px; display:flex; justify-content:space-between; align-items:center;}
+ .buttons{ margin-left:auto;}
+ .log-block{ margin-right:30px;}
+ .menu a{ color:#ffffff; text-decoration:none; font-weight:400;}
+  .menu li{ margin-right:20px;}
+  .button-border{border:1px solid #ffffff; padding:10px 15px; display:inline-block; border-radius:5px; color:#ffffff;}
+  .button-fill{border:1px solid #ffffff; padding:10px 15px; display:inline-block; border-radius:5px; background-color:#ffffff; color:#0a71f7 !important;}
+  .banner-section
+  {
+	  display:flex; justify-content:space-between;
+	  background-image:url(../images/banner.jpg);
+	  min-height:400px;
+	 background-size:cover;
+	 background-position:top -100px center;
+	 padding:0 15px;
+	 align-items:center;
+  }
+.banner-text{width:50%; color:#ffffff;}
+.banner-text h1{ font-size:40px; margin:0;}
+.icons{background-image:url(../images/admin-light-theme-icons.svg); 
+width:24px; height:24px; display:inline-block; background-repeat:no-repeat;     vertical-align: bottom;
+}}
+.about-icon{ background-position:-152px -26px; }
+.get-icon{ background-position:-152px -26px; }
+.contact-icon{ background-position:-152px -26px; }
+.table-section{ padding:100px 15px;}
+table{ border-color: #990000;}
+table th{ background-color:#1a66ff;}
+table tfoot td{background-color:#001133; color:#ffffff;}
+table tbody tr:nth-child(even) td{ background-color:#ccffff;}
+table tbody tr td:nth-child(even){ background-color:#cccccc;}
+.forms-setion{background-color: #ffff4d; padding:100px 15px 300px;}
+.block{ display:block; margin-top:20px;}
+.control{ height:40px; width:350px; }
+.name-icon{padding-left:50px; 
+background-image: url(../images/mail.png); 
+background-repeat:no-repeat;
+background-position:left 15px center;}
